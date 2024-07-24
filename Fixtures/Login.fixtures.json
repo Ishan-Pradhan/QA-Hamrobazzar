@@ -1,0 +1,28 @@
+{
+    "validUser": {
+      "phone": "9862583199",
+      "password": "@modh4441"
+    },
+    "verifyLogin":{
+        "name": "Amodh"
+    },
+  
+    "invalidUser": {
+      "invalidCredentials": {
+        "phone": "9808418255",
+        "password": "amodh123"
+      },
+      "emptyField": {
+        "phone": "",
+        "password": ""
+      },
+      "emptyPhone": {
+        "phone": "",
+        "password": "amodh123"
+      },
+      "emptyPassword": {
+        "phone": "9862583199",
+        "password": ""
+      }
+    }
+  }
