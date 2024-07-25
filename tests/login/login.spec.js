@@ -52,18 +52,14 @@ test.describe("invalid login tests", () => {
       testData.invalidUser.emptyPassword.password
     );
     await login.EmptyPassword();
-    
   });
-
- 
 });
 
+// import * as path from "path";
 
-import * as path from 'path';
-
-  const fileWithPath = path.join(__dirname, 'amodh.jpg');
-  const [fileChooser] = await Promise.all([
-    page.waitForEvent('filechooser'),
-    page.getByRole('button', { name: 'Add a Photo' }).click(),
-  ]);
-  await fileChooser.setFiles([fileWithPath]);
+// const fileWithPath = path.join(__dirname, "amodh.jpg");
+// const [fileChooser] = await Promise.all([
+//   page.waitForEvent("filechooser"),
+//   page.getByRole("button", { name: "Add a Photo" }).click(),
+// ]);
+// await fileChooser.setFiles([fileWithPath]);
